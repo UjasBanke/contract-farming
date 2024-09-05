@@ -19,6 +19,29 @@
             align-items: center;
         }
 
+        /* Back arrow button styling */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: darkgreen;
+        }
+
         /* Form container */
         .form-container {
             background-color: rgba(255, 255, 255, 0.8); /* White translucent background */
@@ -69,6 +92,9 @@
     </style>
 </head>
 <body>
+    <!-- Back Arrow Button -->
+    <button class="back-button" onclick="goBack()">&#8592;</button>
+
     <div class="form-container">
         <h1 id="form-title">User Details</h1>
         <form id="userForm">
@@ -167,5 +193,11 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+        // Function to go back to the previous page
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 </html>

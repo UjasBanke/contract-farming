@@ -14,6 +14,7 @@ function drop(ev) {
 
 function changeLanguage() {
     var selectedLanguage = document.getElementById("language").value;
+    console.log("start")
     var elements = {
         title: document.getElementById("form-title"),
         nameLabel: document.getElementById("name-label"),
