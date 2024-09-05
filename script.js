@@ -168,8 +168,7 @@ function changeLanguage() {
             elements.stateLabel.textContent = 'ਰਾਜ: *';
         //    elements.cityLabel.textContent = 'ਸ਼ਹਿਰ: *';
             elements.districtLabel.textContent = 'ਜ਼ਿਲ੍ਹਾ: *';
-            elements.phoneLabel.textContent
-            = 'ਰਜਿਸਟਰਡ ਫ਼ੋਨ ਨੰਬਰ: *';
+            elements.phoneLabel.textContent= 'ਰਜਿਸਟਰਡ ਫ਼ੋਨ ਨੰਬਰ: *';
             elements.aadhaarLabel.textContent = 'ਆਧਾਰ ਨੰਬਰ: *';
             elements.nextButton.textContent = 'ਅਗਲਾ ਪੰਨਾ';
             break;
